@@ -9,13 +9,13 @@ public class Main {
         }
         public int product(int x, int y, int z)
         {
-           return x*y*z;
+            return x*y*z;
         }
     }
     public static void main(String[] args) {
         Product p=new Product();
-        p.product(10,20);
-        p.product(2,3,4);
+        System.out.println(p.product(10,20));
+        System.out.println(p.product(2,3,4));
 
     }
 }
